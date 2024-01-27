@@ -14,4 +14,16 @@ public class Author {
     public String getLastName() {
         return this.lastName;
     }
+
+    public void setFirstName(String blake) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String crouch) {
+        this.lastName = lastName;
+    }
+
+    public String toString() {
+        return this.firstName + " " + this.lastName;
+    }
 }
