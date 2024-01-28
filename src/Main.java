@@ -9,6 +9,8 @@ public class Main {
         System.out.println(dome);
 
         System.out.println(pines.equals(dome));
+        System.out.println(pines.hashCode());
+        System.out.println(dome.hashCode());
 
 
 
